@@ -1,0 +1,21 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="batchtest" parallel = "true">
+<test name="pomframework">
+<classes>
+<class name="DriverFactory.TestScript">
+</class>
+</classes>
+</test>
+<test name="datadriven">
+<classes>
+<class name="DriverFactory.DataDrivenFramework">
+</class>
+</classes>
+</test>
+<test name="testscript">
+<classes>
+<class name="DriverFactory.DriverScript">
+</class>
+</classes>
+</test>
+</suite>

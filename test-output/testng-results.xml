@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+    <line>
+      <![CDATA[Login Success]]>
+    </line>
+    <line>
+      <![CDATA[no of rows are::4  no of columns in first row::4]]>
+    </line>
+    <line>
+      <![CDATA[Login Success]]>
+    </line>
+    <line>
+      <![CDATA[Logout Success]]>
+    </line>
+    <line>
+      <![CDATA[Login Success]]>
+    </line>
+    <line>
+      <![CDATA[Branch Creation Success]]>
+    </line>
+    <line>
+      <![CDATA[Logout Success]]>
+    </line>
+    <line>
+      <![CDATA[Login Success]]>
+    </line>
+    <line>
+      <![CDATA[Branch Updation Success]]>
+    </line>
+    <line>
+      <![CDATA[Logout Success]]>
+    </line>
+  </reporter-output>
+  <suite name="batchtest" duration-ms="351589" started-at="2019-09-26T05:22:21Z" finished-at="2019-09-26T05:28:12Z">
+    <groups>
+    </groups>
+    <test name="pomframework" duration-ms="136111" started-at="2019-09-26T05:22:21Z" finished-at="2019-09-26T05:24:37Z">
+      <class name="DriverFactory.TestScript">
+        <test-method status="PASS" signature="launch()[pri:0, instance:DriverFactory.TestScript@757942a1]" name="launch" is-config="true" duration-ms="46468" started-at="2019-09-26T05:22:21Z" finished-at="2019-09-26T05:23:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method status="PASS" signature="Empcre()[pri:0, instance:DriverFactory.TestScript@757942a1]" name="Empcre" duration-ms="31084" started-at="2019-09-26T05:23:07Z" finished-at="2019-09-26T05:23:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Empcre -->
+        <test-method status="PASS" signature="logoutapp()[pri:0, instance:DriverFactory.TestScript@757942a1]" name="logoutapp" is-config="true" duration-ms="8046" started-at="2019-09-26T05:23:38Z" finished-at="2019-09-26T05:23:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutapp -->
+        <test-method status="PASS" signature="launch()[pri:0, instance:DriverFactory.TestScript@757942a1]" name="launch" is-config="true" duration-ms="26459" started-at="2019-09-26T05:23:46Z" finished-at="2019-09-26T05:24:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method status="PASS" signature="Usercre()[pri:1, instance:DriverFactory.TestScript@757942a1]" name="Usercre" duration-ms="16240" started-at="2019-09-26T05:24:13Z" finished-at="2019-09-26T05:24:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Usercre -->
+        <test-method status="PASS" signature="logoutapp()[pri:0, instance:DriverFactory.TestScript@757942a1]" name="logoutapp" is-config="true" duration-ms="7770" started-at="2019-09-26T05:24:29Z" finished-at="2019-09-26T05:24:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutapp -->
+      </class> <!-- DriverFactory.TestScript -->
+    </test> <!-- pomframework -->
+    <test name="datadriven" duration-ms="129902" started-at="2019-09-26T05:24:37Z" finished-at="2019-09-26T05:26:47Z">
+      <class name="DriverFactory.DataDrivenFramework">
+        <test-method status="PASS" signature="Adminlogin()[pri:0, instance:DriverFactory.DataDrivenFramework@a74868d]" name="Adminlogin" is-config="true" duration-ms="23283" started-at="2019-09-26T05:24:37Z" finished-at="2019-09-26T05:25:00Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Login Success]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Adminlogin -->
+        <test-method status="PASS" signature="empcreation()[pri:0, instance:DriverFactory.DataDrivenFramework@a74868d]" name="empcreation" duration-ms="98911" started-at="2019-09-26T05:25:00Z" finished-at="2019-09-26T05:26:39Z">
+          <reporter-output>
+            <line>
+              <![CDATA[no of rows are::4  no of columns in first row::4]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- empcreation -->
+        <test-method status="PASS" signature="logoutapp()[pri:0, instance:DriverFactory.DataDrivenFramework@a74868d]" name="logoutapp" is-config="true" duration-ms="7702" started-at="2019-09-26T05:26:39Z" finished-at="2019-09-26T05:26:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutapp -->
+      </class> <!-- DriverFactory.DataDrivenFramework -->
+    </test> <!-- datadriven -->
+    <test name="testscript" duration-ms="85297" started-at="2019-09-26T05:26:47Z" finished-at="2019-09-26T05:28:12Z">
+      <class name="DriverFactory.DriverScript">
+        <test-method status="PASS" signature="launch()[pri:0, instance:DriverFactory.DriverScript@64485a47]" name="launch" is-config="true" duration-ms="22263" started-at="2019-09-26T05:26:47Z" finished-at="2019-09-26T05:27:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method status="PASS" signature="primusbank()[pri:0, instance:DriverFactory.DriverScript@64485a47]" name="primusbank" duration-ms="62849" started-at="2019-09-26T05:27:09Z" finished-at="2019-09-26T05:28:12Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Login Success]]>
+            </line>
+            <line>
+              <![CDATA[Logout Success]]>
+            </line>
+            <line>
+              <![CDATA[Login Success]]>
+            </line>
+            <line>
+              <![CDATA[Branch Creation Success]]>
+            </line>
+            <line>
+              <![CDATA[Logout Success]]>
+            </line>
+            <line>
+              <![CDATA[Login Success]]>
+            </line>
+            <line>
+              <![CDATA[Branch Updation Success]]>
+            </line>
+            <line>
+              <![CDATA[Logout Success]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- primusbank -->
+        <test-method status="PASS" signature="logout()[pri:0, instance:DriverFactory.DriverScript@64485a47]" name="logout" is-config="true" duration-ms="177" started-at="2019-09-26T05:28:12Z" finished-at="2019-09-26T05:28:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+      </class> <!-- DriverFactory.DriverScript -->
+    </test> <!-- testscript -->
+  </suite> <!-- batchtest -->
+</testng-results>

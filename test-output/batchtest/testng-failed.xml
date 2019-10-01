@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [batchtest]" parallel="methods">
+  <test thread-count="5" name="testscript(failed)" parallel="methods">
+    <classes>
+      <class name="DriverFactory.DriverScript">
+        <methods>
+          <include name="logout"/>
+          <include name="launch"/>
+          <include name="primusbank"/>
+        </methods>
+      </class> <!-- DriverFactory.DriverScript -->
+    </classes>
+  </test> <!-- testscript(failed) -->
+</suite> <!-- Failed suite [batchtest] -->
